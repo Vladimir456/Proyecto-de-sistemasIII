@@ -1,0 +1,58 @@
+/*estilos para el formulario login*/
+.fondoPlantilla {
+    /* background-color: rgba(14, 22, 16, 0.205); */
+    background-color: rgba(150, 147, 147, 0.164);
+
+}
+.loginRadius {
+    border: 1px solid rgba(10, 10, 10, 0.137);
+    border-radius: 15px;
+}
+.border{
+    border-radius: 15px;
+}
+.border-button{
+ border-radius: 15px;
+ font-size: 15px;
+}
+label {
+    color: rgb(92, 58, 116);
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a {
+    color: rgb(250, 246, 242);
+    font-size: 15px;
+    text-decoration: none;
+}
+a:hover {
+    font-size: 16px;
+    color: rgba(155, 56, 201, 0.877);
+    text-decoration: none;
+}
+button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+}
+
+.iniciar{
+    font-size: 30px;
+    color: black;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+.divisor-linea 
+{
+    border: 2px solid #666; 
+    border-radius: 300px/10px; 
+    height: 0;
+    margin: 0; 
+    text-align: center;
+}
+.link{
+    text-align: center;
+    color: rgb(255, 9, 9);
+}
+

@@ -1,0 +1,34 @@
+/* estilos para el formulario de la persona */
+label 
+{
+    color: rgba(128, 30, 13, 0.815);
+}
+.border0 {
+    border: 1px solid rgba(215, 203, 224, 0.76);
+    border-radius: 2px;
+}
+.img {
+    width: 63%;
+    height: 64%;
+    margin-top: 25px;
+    outline: none;
+}
+.fondo{
+    background-color: rgba(252, 252, 252, 0.062);
+}
+h4{
+    color: rgba(6, 6, 49, 0.829);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.divisor-linea 
+{
+    border: 2px solid rgba(31, 21, 41, 0.521); 
+    border-radius: 580px/10px; 
+    height: 0;
+    margin: 0; 
+    text-align: center;
+}
+.borderForm{
+    border: 1px solid rgba(100, 23, 158, 0.342);
+    border-radius: 10px;
+}

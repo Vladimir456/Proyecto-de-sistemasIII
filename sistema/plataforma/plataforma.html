@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Plataforma</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.5 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="css/AdminLTE.min.css">
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+         folder instead of downloading all of them to reduce the load. -->
+    <link rel="stylesheet" href="css/_all-skins.min.css">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+  </head>
+  <body class="hold-transition skin-purple-light sidebar-mini">
+    
+    <div class="wrapper">
+
+      <header class="main-header">
+
+        <!-- Logo -->
+        <a href="#" class="logo"><img src="img.jpg" width="200" height="50">
+          <!-- mini logo for sidebar mini 50x50 pixels -->
+          <!-- <span class="logo-mini"><b>IT</b>Ventas</span> -->
+        </a>
+
+        <!-- Header Navbar: style can be found in header.less -->
+        <nav class="navbar navbar-static-top" role="navigation">
+          <!-- Sidebar toggle button-->
+          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Navegación</span>
+          </a>
+          <!-- Navbar Right Menu -->
+          <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+              
+              <!-- User Account: style can be found in dropdown.less -->
+              <li class="dropdown user user-menu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <!-- <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+                  <span class="hidden-xs">Juan Carlos Arcila</span> -->
+                </a>
+                <ul class="dropdown-menu">
+                  <!-- User image -->
+                  <!-- <li class="user-header">
+                    <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                    <p>
+                      www.incanatoit.com - Desarrollando Software
+                      <small>www.youtube.com/jcarlosad7</small>
+                    </p>
+                  </li> -->
+                  
+                  <!-- Menu Footer-->
+                  <li class="user-footer">
+                    
+                    <div class="pull-right">
+                      <a href="#" class="btn btn-default btn-flat">Cerrar</a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              
+            </ul>
+          </div>
+
+        </nav>
+      </header>
+      <!-- Left side column. contains the logo and sidebar -->
+      <aside class="main-sidebar">
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">       
+          <!-- sidebar menu: : style can be found in sidebar.less -->
+          <ul class="sidebar-menu">
+            <li class="header"></li>
+            <li>
+              <a href="#">
+                <i class="fa fa-tasks"></i> <span>Bienvenido Administrador</span>
+              </a>
+            </li>        
+
+
+            <div class="dropdown">
+  <a  class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style='width:230px; height:40px ' style="font-size-adjust:right;">
+    <i class="fa fa-user"></i>
+                <span >Personas</span>
+                <i class="fa fa-angle-left pull-right"></i>
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" >
+     <li class="treeview">
+              <a href="../Principal/agregarPersonas.php" style='width:230px'>
+                <i class="fa fa-user"></i>
+                <span>Ingresar Personas</span>
+                <i class="fa fa-angle-left pull-right"></i>
+              </a>
+            </li>
+
+    <li class="treeview">
+              <a href="../Principal/eliminarPersona.php">
+                <i class="fa fa-user"></i>
+                <span>Eliminar Personas</span>
+                <i class="fa fa-angle-left pull-right"></i>
+              </a>
+            </li>
+   <li class="treeview">
+              <a href="../Principal/Personal.php">
+                <i class="fa fa-user-secret"></i>
+                <span>Lista del Personal</span>
+                 <i class="fa fa-angle-left pull-right"></i>
+              </a>
+            </li> 
+
+
+       <li class="treeview">
+              <a href="../Principal/verhoras.php">
+                <i class="fa fa-compass"></i> 
+                <span>Horas Registradas</span>
+                <i class="fa fa-angle-left pull-right"></i>
+              </a>
+            </li>   
+
+
+         <li class="treeview">
+              <a href="../Principal/hora.php">
+                <i class="fa fa-user-secret"></i>
+                <span>Registrar Horas</span>
+                 <i class="fa fa-angle-left pull-right"></i>
+              </a>
+            </li>         
+  </div>
+</div>
+
+
+
+
+<div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  style='width:230px; height:40px'>
+    <i class="fa fa-trophy"></i>
+                <span>Producto</span>
+                 <i class="fa fa-angle-left pull-right"></i>
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+     <li class="treeview">
+              <a href="../Principal/agregarProducto.php"  style='width:230px'>
+                <i class="fa fa-trophy"></i>
+                <span>Agregar Producto</span>
+                 <i class="fa fa-angle-left pull-right"></i>
+              </a>
+            </li>
+
+            <li class="treeview">
+              <a href="../Principal/modificarForm.php">
+                <i class="fa fa-trophy"></i>
+                <span>Actualizar Stock</span>
+                 <i class="fa fa-angle-left pull-right"></i>
+              </a>
+            </li>
+
+                <li class="treeview">
+              <a href="../Principal/eliminarForm.php">
+                <i class="fa fa-trophy"></i>
+                <span>Eliminar Producto</span>
+                 <i class="fa fa-angle-left pull-right"></i>
+              </a>
+            </li>
+           
+           
+
+              <li class="treeview">
+              <a href="../Principal/Inventario.php">
+                <i class="fa fa-compass"></i> 
+                <span>Inventario de Productos</span>
+                <i class="fa fa-angle-left pull-right"></i>
+              </a>
+            </li>                      
+  </div>
+</div>
+
+
+
+
+
+            <!--<li class="treeview">
+              <a href="../Principal/agregarPersonas.php">
+                <i class="fa fa-user"></i>
+                <span>Ingresar Personas</span>
+                <i class="fa fa-angle-left pull-right"></i>
+              </a>
+            </li>
+
+            <li class="treeview">
+              <a href="../Principal/eliminarPersona.php">
+                <i class="fa fa-user"></i>
+                <span>Eliminar Personas</span>
+                <i class="fa fa-angle-left pull-right"></i>
+              </a>
+            </li>
+
+
+          
+             <li class="treeview">
+              <a href="../Principal/agregarProducto.php">
+                <i class="fa fa-trophy"></i>
+                <span>Agregar Producto</span>
+                 <i class="fa fa-angle-left pull-right"></i>
+              </a>
+            </li>
+
+            <li class="treeview">
+              <a href="../Principal/modificarForm.php">
+                <i class="fa fa-trophy"></i>
+                <span>Actualizar Stock</span>
+                 <i class="fa fa-angle-left pull-right"></i>
+              </a>
+            </li>
+
+                <li class="treeview">
+              <a href="../Principal/eliminarForm.php">
+                <i class="fa fa-trophy"></i>
+                <span>Eliminar Producto</span>
+                 <i class="fa fa-angle-left pull-right"></i>
+              </a>
+            </li>
+           
+            <li class="treeview">
+              <a href="../Principal/registroVenta.php">
+                <i class="fa fa-user-secret"></i>
+                <span>Registrar Venta</span>
+                 <i class="fa fa-angle-left pull-right"></i>
+              </a>
+            </li>                       
+            <li class="treeview">
+              <a href="../Principal/cambiarPassword.php">
+                <i class="fa fa-compass"></i> 
+                <span>Cambiar Password</span>
+                <i class="fa fa-angle-left pull-right"></i>
+              </a>
+            </li>
+
+            <li class="treeview">
+              <a href="../Principal/Inventario.php">
+                <i class="fa fa-compass"></i> 
+                <span>Inventario de Productos</span>
+                <i class="fa fa-angle-left pull-right"></i>
+              </a>
+            </li>
+
+             <li class="treeview">
+              <a href="../Principal/Personal.php">
+                <i class="fa fa-user-secret"></i>
+                <span>Personal</span>
+                 <i class="fa fa-angle-left pull-right"></i>
+              </a>
+            </li>    
+
+                 <li class="treeview">
+              <a href="../Principal/verhoras.php">
+                <i class="fa fa-compass"></i> 
+                <span>Horas Registradas</span>
+                <i class="fa fa-angle-left pull-right"></i>
+              </a>
+            </li>
+
+             <li class="treeview">
+              <a href="../Principal/verventas.php">
+                <i class="fa fa-user-secret"></i>
+                <span>Ventas Registradas</span>
+                 <i class="fa fa-angle-left pull-right"></i>
+              </a>
+            </li>    
+
+
+
+            <li class="treeview">
+              <a href="../Principal/hora.php">
+                <i class="fa fa-user-secret"></i>
+                <span>Registrar Horas</span>
+                 <i class="fa fa-angle-left pull-right"></i>
+              </a>
+            </li>   -->
+            
+
+             <li class="treeview">
+              <a href="../Principal/cambiarPassword.php">
+                <i class="fa fa-compass"></i> 
+                <span>Cambiar Password</span>
+                <i class="fa fa-angle-left pull-right"></i>
+              </a>
+            </li>
+	
+
+
+
+
+            <li class="treeview">
+              <a href="../Principal/index.html">
+                <i class="fa fa-credit-card"></i> 
+                <span>Cerrar Session</span>
+                <i class="fa fa-angle-left pull-right"></i>
+              </a>
+            </li>
+
+          </ul>
+        </section>
+        <!-- /.sidebar -->
+      </aside>
+
+
+
+
+
+<!--Contenido-->
+      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper">
+        
+        <!-- Main content -->
+        <section class="content">
+            <div class="row">
+              <div class="col-md-12">
+                  <div class="box">
+                    <div class="box-header with-border">
+                          <!-- <h1 class="box-title">Tabla <button class="btn btn-success" onclick="mostrarform(true)"><i class="fa fa-plus-circle"></i> Agregar</button></h1> -->
+                        <div class="box-tools pull-right">
+                        </div>
+                    </div>
+                    <!-- /.box-header -->
+                    <!-- centro -->
+                    <div class="panel-body table-responsive" style="height: 400px;" id="listadoregistros">
+                        
+                    </div>
+                    <!--Fin centro -->
+                  </div><!-- /.box -->
+              </div><!-- /.col -->
+          </div><!-- /.row -->
+      </section><!-- /.content -->
+
+    </div><!-- /.content-wrapper -->
+  <!--Fin-Contenido-->
+
+    <footer class="main-footer">
+       
+    </footer>    
+    <!-- jQuery 2.1.4 -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap 3.3.5 -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
+

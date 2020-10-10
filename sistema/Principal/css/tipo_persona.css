@@ -1,0 +1,36 @@
+.fondo{
+    background-color: rgba(255, 255, 255, 0.062);  
+}
+body{
+    background-color: rgba(2, 25, 56, 0.918);
+}
+.radius {
+    border: 1px solid rgba(19, 17, 17, 0.37);
+    border-radius: 10px;
+    padding: 15px;
+}
+.divisor-linea 
+{
+    border: 1px solid rgba(238, 228, 228, 0.418);
+    border-radius: 1000px/590px; 
+    height: 0;
+    margin: 0; 
+    text-align: center;
+}
+.divisor-vertical{
+    border: 1px solid rgba(250, 247, 247, 0.308);
+    border-radius: 580px/100px; 
+    height: 28vh;
+    margin: 0; 
+    position: absolute;
+}
+label{
+    color: rgba(247, 247, 247, 0.863);
+}
+h2{
+    margin-bottom: 20px;
+    color: rgb(236, 235, 233);
+}
+.color{
+    color: rgb(140, 190, 4);
+}
